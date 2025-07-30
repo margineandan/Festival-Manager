@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13b368e6-f692-4989-9329-2a5e112756df" name="Changes" comment="REST Services for 'Spectacol' Entity.">
+      <change afterPath="$PROJECT_DIR$/RestServices/src/main/java/main/Start/WebSocketConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/Controller/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Controller/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Network/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/Repository/Spectacol/SpectacolDBHibernateRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/Repository/Spectacol/SpectacolDBHibernateRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/Repository/Utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/Repository/Utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServices/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RestServices/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServices/src/main/java/main/Controller/SpectacolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestServices/src/main/java/main/Controller/SpectacolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServices/src/main/java/main/Start/StartRestServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestServices/src/main/java/main/Start/StartRestServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Service/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Client">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Model">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Client">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GestiuneFestivalClientServer" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Exception" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;margineandan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mpp-at-cs-ubbcluj-ro/mpp-proiect-java-margineandan.git&quot;,
+    &quot;accountId&quot;: &quot;857b40af-3a76-490a-9219-024632182591&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vJjc6frv9Mk43od1cLwRJroyTT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Gradle.Build GestiuneFestivalClientServer.executor": "Run",
+    "Gradle.Client [:Controller.Main.main()].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer [build].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer [jar].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer [run].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer.executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Client [:Client:Controller.Application.main()].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Client [:Client:main.Application.main()].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Client [:Client:main.Main.main()].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Client [assemble].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Client [build].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Client [jar].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:RestServices [:RestServices:main.Test.TestClientSpectacol.main()].executor": "Run",
+    "Gradle.GestiuneFestivalClientServer:Server [:Server:Server.Main.main()].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.StartRestServices.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/margi/OneDrive/Desktop/FACULTATE/AN 2 - SEMESTRUL 2/MPP/GestiuneFestivalClientServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/margi/AppData/Roaming/JetBrains/IntelliJIdea2024.2/node/versions/20.15.0/node",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/margi/OneDrive/Desktop/FACULTATE/AN 2 - SEMESTRUL 2/MPP/GestiuneFestivalClientServer/RestServices/src/main/java/main/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3586207",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer\src\main\resources" />
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer\Persistence\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer\Network\src\main\java\Networking\ProtobuffProtocol" />
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer\Network\src\main\java\Networking" />
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer\Network\src\main\java" />
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer\Client\src\main\resources" />
+      <recent name="C:\Users\margi\OneDrive\Desktop\FACULTATE\AN 2 - SEMESTRUL 2\MPP\GestiuneFestivalClientServer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Application" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Controller.Application" />
+      <module name="GestiuneFestivalClientServer.Client.main" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\margi\Downloads\openjfx-17.0.14_windows-x64_bin-sdk\javafx-sdk-17.0.14\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Main" />
+      <module name="GestiuneFestivalClientServer.Server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestiuneFestivalClientServer [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GestiuneFestivalClientServer:Client [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GestiuneFestivalClientServer:Client [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GestiuneFestivalClientServer:Client [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartRestServices" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GestiuneFestivalClientServer.RestServices.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.Start.StartRestServices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.GestiuneFestivalClientServer [run]" />
+      <item itemvalue="Gradle.GestiuneFestivalClientServer:Client [assemble]" />
+      <item itemvalue="Gradle.GestiuneFestivalClientServer:Client [build]" />
+      <item itemvalue="Gradle.GestiuneFestivalClientServer:Client [jar]" />
+      <item itemvalue="Spring Boot.StartRestServices" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.GestiuneFestivalClientServer [run]" />
+        <item itemvalue="Gradle.GestiuneFestivalClientServer:Client [build]" />
+        <item itemvalue="Gradle.GestiuneFestivalClientServer:Client [jar]" />
+        <item itemvalue="Gradle.GestiuneFestivalClientServer:Client [assemble]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13b368e6-f692-4989-9329-2a5e112756df" name="Changes" comment="" />
+      <created>1743870148054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743870148054</updated>
+      <workItem from="1743870148977" duration="12646000" />
+      <workItem from="1743950208619" duration="24000" />
+      <workItem from="1743950257147" duration="35000" />
+      <workItem from="1743950312760" duration="35000" />
+      <workItem from="1743950353928" duration="47000" />
+      <workItem from="1743950415605" duration="247000" />
+      <workItem from="1744125307975" duration="9069000" />
+      <workItem from="1744203457150" duration="13776000" />
+      <workItem from="1744227716988" duration="6348000" />
+      <workItem from="1744308210160" duration="63000" />
+      <workItem from="1744308298106" duration="15929000" />
+      <workItem from="1744325829878" duration="183000" />
+      <workItem from="1744363947621" duration="4332000" />
+      <workItem from="1744370879869" duration="1271000" />
+      <workItem from="1744395597631" duration="1774000" />
+      <workItem from="1744731608322" duration="6335000" />
+      <workItem from="1744756097435" duration="2270000" />
+      <workItem from="1744807500812" duration="4285000" />
+      <workItem from="1744817984169" duration="14000" />
+      <workItem from="1744888946871" duration="1123000" />
+      <workItem from="1744905527089" duration="594000" />
+      <workItem from="1745082335769" duration="7149000" />
+      <workItem from="1745853028648" duration="1479000" />
+      <workItem from="1745859405000" duration="212000" />
+      <workItem from="1745921295833" duration="890000" />
+      <workItem from="1746482628676" duration="914000" />
+      <workItem from="1746484134842" duration="27000" />
+      <workItem from="1746484216594" duration="148000" />
+      <workItem from="1746484444288" duration="426000" />
+      <workItem from="1746484884807" duration="1376000" />
+      <workItem from="1746486285439" duration="16544000" />
+      <workItem from="1746565474301" duration="3444000" />
+      <workItem from="1746646951906" duration="577000" />
+      <workItem from="1746730809471" duration="7571000" />
+      <workItem from="1746781701252" duration="2398000" />
+      <workItem from="1747082482591" duration="1472000" />
+      <workItem from="1747128724430" duration="726000" />
+      <workItem from="1747168250277" duration="5531000" />
+      <workItem from="1747243128625" duration="278000" />
+      <workItem from="1747345105767" duration="335000" />
+      <workItem from="1747389029417" duration="1154000" />
+      <workItem from="1747405340599" duration="581000" />
+      <workItem from="1747686680673" duration="355000" />
+      <workItem from="1747849901051" duration="202000" />
+      <workItem from="1747850443853" duration="83000" />
+      <workItem from="1747858356473" duration="272000" />
+      <workItem from="1747908592684" duration="1446000" />
+      <workItem from="1747927733268" duration="14355000" />
+      <workItem from="1747991144857" duration="550000" />
+      <workItem from="1748194367061" duration="340000" />
+      <workItem from="1748201890005" duration="1529000" />
+      <workItem from="1748247690981" duration="1337000" />
+      <workItem from="1748283130008" duration="9464000" />
+      <workItem from="1748301380411" duration="3894000" />
+      <workItem from="1748305344103" duration="28000" />
+      <workItem from="1748344273540" duration="633000" />
+      <workItem from="1748358342152" duration="1898000" />
+      <workItem from="1748362864880" duration="5115000" />
+      <workItem from="1748451863921" duration="239000" />
+      <workItem from="1748595566126" duration="1746000" />
+      <workItem from="1748808579187" duration="97000" />
+      <workItem from="1748811413038" duration="324000" />
+      <workItem from="1750609133447" duration="677000" />
+      <workItem from="1750611156566" duration="117000" />
+      <workItem from="1750618257132" duration="4155000" />
+      <workItem from="1750624872563" duration="1803000" />
+      <workItem from="1750700938715" duration="3376000" />
+      <workItem from="1750705172397" duration="5414000" />
+      <workItem from="1750771896400" duration="11023000" />
+      <workItem from="1750804065499" duration="205000" />
+      <workItem from="1750804291916" duration="1016000" />
+      <workItem from="1750806334687" duration="1430000" />
+      <workItem from="1750857542995" duration="14237000" />
+      <workItem from="1751054193756" duration="1403000" />
+      <workItem from="1751086522748" duration="2809000" />
+      <workItem from="1753903851400" duration="270000" />
+    </task>
+    <task id="LOCAL-00001" summary="Client Server Implementation.">
+      <option name="closed" value="true" />
+      <created>1744905758330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744905758330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Client Server Implementation.">
+      <option name="closed" value="true" />
+      <created>1744905894257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744905894257</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Protobuff Protocol.">
+      <option name="closed" value="true" />
+      <created>1747128897830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747128897830</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added ORM (Hibernate) To Persistence.">
+      <option name="closed" value="true" />
+      <created>1747173844161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747173844161</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added ORM (Hibernate) To Persistence.">
+      <option name="closed" value="true" />
+      <created>1748194437105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748194437105</updated>
+    </task>
+    <task id="LOCAL-00006" summary="REST Services for 'Spectacol' Entity.">
+      <option name="closed" value="true" />
+      <created>1748194516322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748194516322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Client Server Implementation." />
+    <MESSAGE value="Protobuff Protocol." />
+    <MESSAGE value="Added ORM (Hibernate) To Persistence." />
+    <MESSAGE value="REST Services for 'Spectacol' Entity." />
+    <option name="LAST_COMMIT_MESSAGE" value="REST Services for 'Spectacol' Entity." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Persistence/src/main/java/Repository/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Service/src/main/java/Service/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Network/src/main/java/Networking/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+.custom-alert {
+    -fx-background-color: linear-gradient(to right, #facd68, #fc76b3);
+}
+
+.custom-alert .content {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.custom-alert .header-panel {
+    -fx-background-color: transparent;
+}
+
+.custom-alert .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.custom-alert .button {
+    -fx-background-color: linear-gradient(to right, #fc76b3, #facd68);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+.custom-alert .button:hover {
+    -fx-background-color: linear-gradient(to right, #f34e82, #f7b553);
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: transparent;" stylesheets="@color.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controllers.LoginController">
+
+    <children>
+        <!-- Login Panel -->
+        <AnchorPane layoutX="224.0" layoutY="76.0" prefHeight="249.0" prefWidth="310.0" style="-fx-background-radius: 25; -fx-background-color: white;">
+            <children>
+                <!-- LOGIN Label -->
+                <Label fx:id="textLogin" layoutX="118.0" layoutY="14.0" styleClass="gradient-text" text="LOGIN" />
+
+                <!-- Username Field -->
+                <TextField fx:id="labelUsername" layoutX="72.0" layoutY="70.0" onKeyPressed="#handleKeyPress" prefHeight="25.0" prefWidth="174.0" promptText="Username:" styleClass="text-field" />
+
+                <!-- Password Field -->
+                <PasswordField fx:id="labelPassword" layoutX="72.0" layoutY="109.0" onKeyPressed="#handleKeyPress" prefHeight="25.0" prefWidth="174.0" promptText="Password:" styleClass="text-field" />
+
+                <!-- Login Button -->
+                <Button fx:id="buttonLogin" layoutX="61.0" layoutY="177.0" onMouseClicked="#handleLogin" prefHeight="41.0" prefWidth="87.0" styleClass="button" text="Login" />
+                <Button fx:id="buttonRegister" layoutX="170.0" layoutY="177.0" onMouseClicked="#handleRegister" prefHeight="41.0" prefWidth="87.0" styleClass="button" text="Register" />
+            </children>
+        </AnchorPane>
+
+        <!-- Sidebar Panel -->
+        <AnchorPane fx:id="sideBar" layoutX="31.0" layoutY="53.0" prefHeight="295.0" prefWidth="220.0" style="-fx-background-radius: 25;" styleClass="colorBackground">
+            <!-- Close Button -->
+            <Button layoutX="14.0" layoutY="14.0" onAction="#closeProgram" styleClass="close-button" text="X" />
+        </AnchorPane>
+    </children>
+</AnchorPane>

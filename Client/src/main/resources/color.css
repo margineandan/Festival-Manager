@@ -1,0 +1,91 @@
+/* Apply gradient text effect */
+.gradient-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to right top, #facd68, #fc76b3);
+}
+
+/* Background gradient for panels */
+.colorBackground {
+    -fx-background-color: linear-gradient(to right top, #facd68, #fc76b3);
+}
+
+/* Styling for TextFields and PasswordFields */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: linear-gradient(to right, #facd68, #fc76b3);
+    -fx-border-width: 1.5;
+    -fx-border-radius: 10;
+    -fx-prompt-text-fill: gray;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+/* Styling for the Login Button */
+.button {
+    -fx-background-color: linear-gradient(to right, #F9CD68, #FC7691);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 8px 14px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 3);
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+/* Subtle hover effect */
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #f7b553, #f34e82);
+    -fx-scale-x: 1.05; /* Slightly enlarges the button */
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(243, 78, 130, 0.5), 12, 0, 0, 3);
+}
+
+/* Styling for the Close Button */
+.close-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for close button */
+.close-button:hover {
+    -fx-text-fill: #facd68;
+}
+
+/* Styling for the scroll bars */
+.scroll-bar {
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-opacity: 0.8; /* Add some opacity to the scroll bar */
+}
+
+/* Customize the thumb (the draggable part of the scroll bar) */
+.scroll-bar .thumb {
+    -fx-background-color: linear-gradient(to right, #F9CD68, #FC7691); /* Thumb gradient color */
+    -fx-background-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Customize the buttons (arrows) of the scroll bar */
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent; /* Make the buttons transparent */
+    -fx-min-width: 20px; /* Set a minimum width */
+    -fx-min-height: 20px; /* Set a minimum height */
+}
+
+/* Customize the track (background) of the scroll bar */
+.scroll-bar .track {
+    -fx-background-color: #d3d3d3; /* Gray background for the track */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for the thumb */
+.scroll-bar .thumb:hover {
+    -fx-background-color: linear-gradient(to right, #fc76b3, #f7b553); /* Lighten the thumb on hover */
+}
+
+

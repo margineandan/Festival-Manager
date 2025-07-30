@@ -1,0 +1,1 @@
+export const FESTIVAL_SPECTACOLE_BASE_URL='http://localhost:8080/festival/spectacole';
